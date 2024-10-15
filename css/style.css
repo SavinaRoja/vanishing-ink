@@ -1,0 +1,67 @@
+body {
+    height: 100%;
+    width: 100%;
+    /* background-image: linear-gradient(to bottom right, rgb(200, 200, 200), rgb(180, 180, 180)); */
+    background-image: url('../su-bgrounds/Day 27.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+svg {
+    fill: black!important;
+}
+
+
+main{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.content-center {
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.toolbar img {
+    margin: 0 5px;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 3vh;
+}
+
+.highlight {
+    background-color:#F19C79;
+  padding:0.1em 0.2em;
+}
+
+.expandable-textarea {
+    background-color:antiquewhite;
+    height: 500px;
+    width: 100vh;
+    opacity: 60%;
+    font-size: 30pt;
+    overflow: scroll;
+  }

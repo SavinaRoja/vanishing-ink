@@ -6,19 +6,38 @@
     <title>Vanishing Ink</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="js/main.js" defer></script>
   </head>
 
-  <body style="height: 100%; width: 100%; background-image: linear-gradient(to bottom right, rgb(200, 200, 200), rgb(180, 180, 180));">
-    <h1 style="text-align: center;">Vanishing Ink</h1>
-    <div id="header"></div>
-    <label for="textarea">Write whatever you like here. After 30 minutes of idle time, it will go away.</label>
-    <div style="background-color:antiquewhite; height: 80%;" id="mytext" class="expandable-textarea" role="textbox" contenteditable></div>
-    <div style="display: flex; height: 100%;"></div>
-    <div id="footer">Footer</div>
-  <!-- <script>
-  </script> -->
+  <body id="body">
+    <header>
+      <h1 class="highlight">Vanishing Ink</h1>
+    </header>
+   
+    <main>
+      <!-- <div class="menu-left">
+        <img src="icon/arrow_back_ios.svg" alt="">
+      </div> -->
+      <div class="content-center">
+        <div class="highlight toolbar">
+          <img id="brightnessInp" src="icon/brightness.svg" alt="">
+          <img id="imgInp" src="icon/image.svg" alt="">
+          <img id="textIncrInp" src="icon/text_increase.svg" alt="">
+          <img id="textDecrInp" src="icon/text_decrease.svg" alt="">
+        </div>
+        <label class="highlight" for="textarea">Write whatever you like here. After 30 minutes of idle time, it will go away.</label>
+        <div id="mytext" class="expandable-textarea" role="textbox" contenteditable></div>
+      </div>
 
+      <!-- <div class="menu-right">
+        <img src="icon/arrow_forward_ios.svg" alt="">
+      </div> -->
+      
+    </main>
+    
   </body>
 </html>
